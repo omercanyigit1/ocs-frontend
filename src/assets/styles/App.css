@@ -1,0 +1,82 @@
+p {
+
+}
+
+.section-list-item {
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 175px;
+    min-height: 800px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-athlete-grid-item {
+    width: 2000px;
+    overflow: hidden;
+}
+
+.grid-el {
+    width: 25em;
+    margin-bottom: 30px;
+}
+
+.grid-el span.ant-avatar {
+    height: 220px;
+    cursor: pointer;
+}
+
+.grid-el ul.ant-card-actions {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.detail-left-side {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.detail-right-side {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.scroll-carousel>[data-arrow=left] {
+    left: 0;
+    background-color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.scroll-carousel > [data-arrow=right] {
+    right: 0;
+    background-color: #fff;
+    font-size: 20px;
+    text-align: right;
+}
+
+.scroll-carousel>[data-arrow=left], .scroll-carousel > [data-arrow=right] {
+    bottom: 0;
+    height: 42px;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 42px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    cursor: pointer;
+    z-index: 1;
+}
